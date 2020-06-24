@@ -1,5 +1,8 @@
 package DataStructure;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * @说明：
  * @类型名称：TestQueue1
@@ -12,22 +15,8 @@ public class TestQueue1 {
 
 
     public static void main(String[] args) {
-        CircularQueue myQueue = new CircularQueue(10);
-        myQueue.enQueue(6);
 
-        myQueue.deQueue();
-        myQueue.Front();
-        myQueue.enQueue(10);
-        myQueue.deQueue();
-        myQueue.enQueue(12);
-        for (int i=0;i<10;i++){
-            myQueue.deQueue();
-
-        }
-
-        System.out.println(myQueue.Front());
-        System.out.println(myQueue.Rear());
-
+        System.out.println((int)Math.ceil(2300/1000.0));
 
 
     }

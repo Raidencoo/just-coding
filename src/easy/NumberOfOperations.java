@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * @说明：
  * @类型名称：NumberOfOperations
